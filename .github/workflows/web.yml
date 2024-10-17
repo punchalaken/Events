@@ -1,4 +1,4 @@
-name: Deploy game-with-goblins to Pages
+name: Game Event
 
 on:
   push:
