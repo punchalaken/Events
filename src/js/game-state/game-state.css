@@ -1,0 +1,5 @@
+.game-state { display: flex; flex-direction: column; }
+
+.game-state__paragraph { font-size: 18px; font-weight: bold; }
+
+.game-state__count { font-weight: normal; }

@@ -1,0 +1,26 @@
+.board {
+    --board-size: 1;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(var(--board-size, 1), 1fr);
+    grid-template-rows: repeat(auto-fill, 1fr);
+    grid-auto-flow: row dense;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 1rem;
+    background-color: green;
+    border-radius: 1rem;
+    border: 0.125rem solid darkgreen;
+    aspect-ratio: 1;
+}
+
+.board__cell {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #252525;
+    border-radius: 50%;
+    border: 0.125rem solid black;
+    aspect-ratio: 1;
+}

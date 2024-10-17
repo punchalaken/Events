@@ -1,0 +1,14 @@
+@import "../js/game-play/game-play.css";
+@import "../js/game-state/game-state.css";
+@import "../js/board/board.css";
+@import "../js/goblin/goblin.css";
+
+body, p { margin: 0; }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-height: 100vh;
+}
